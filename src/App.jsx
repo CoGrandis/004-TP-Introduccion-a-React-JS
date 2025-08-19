@@ -1,17 +1,17 @@
 import React from 'react'
 import "./App.css"
-import Header from './Header'
-import Footer from './Footer'
-import Navbar from './Navbar'
-import Principal from './Principal'
-import Buscador from './Buscador'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import Principal from './components/Principal'
+import Buscador from './components/Buscador'
 const App = () => {
   return (
     <main>
     <Header/>
     <Navbar/>
     <Buscador/>
-    <Principal contenido={"Contenido"}/>
+    <Principal/>
     <Footer/>
     </main>
   )
